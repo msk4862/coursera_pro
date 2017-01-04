@@ -1,1 +1,78 @@
-sjhwjshsvjhasajsghjkab sjkasga,zbj kuabhzkajzhiikqbuq
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+header{
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 170%;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+section {
+     padding: 12px;
+}
+
+p{
+    padding: 5px;
+}
+
+ #section1 .box, #section2 .box, #section3 .box {
+    background-color: grey; 
+ 	position: relative;
+ 	border:1px solid black;
+ 	padding-top: 12px;
+}
+
+#section1 .title{
+    background-color: #F1948A;
+    padding-left: 45px;
+}
+
+#section2 .title{
+    background-color: #C0392B;
+    padding-left: 50px;
+}
+
+#section3 .title{
+    background-color: #EDBB99;
+    padding-left: 50px;
+}
+
+/* desktop  */
+@media (min-width: 992px) {
+	#section1, #section2, #section3 {
+        display: inline-block;
+		width: 33%;
+	} 
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    #section1, #section2 {
+        display: inline-block;
+        width: 49.6%;
+    }
+
+    #section3 {
+        width: 100%;
+    }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+    width: 100%;
+}

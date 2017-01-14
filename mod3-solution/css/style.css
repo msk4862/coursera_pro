@@ -65,9 +65,26 @@ h1 { /* Our Menu */
 }
 
 /* Mobile view */
-@media (max-width: 767) {
-    .container {
-        height: 10px;
+@media (max-width: 767px) {
+    .navbar-brand{ /* Food LLC */
+        font-size: 30px;
+    }
+
+    h1 {/* Our Menu */
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    #content {
+        height: 500px;
   }
+    #content > p{
+        font-weight: normal;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
  
 }

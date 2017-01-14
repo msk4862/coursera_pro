@@ -1,0 +1,73 @@
+#header-nav {
+    background-color: grey;
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    font-size: 50px; 
+}
+.navbar-default .navbar-brand { /* Food LLC color */
+    color: black;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover { 
+    /* to remove hover property from nav-header */
+    color: black;
+}
+
+.navbar-header {
+    padding-bottom: 20px;
+    vertical-align: middle;
+}
+
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background-color: #404040;
+}
+
+#nav-list a {
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /* Menu Button */
+    border: 1px solid black;
+}
+
+
+/* Header Ends */
+
+h1 { /* Our Menu */
+    color: black;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.title {
+    color: #000000;
+    padding: 15px;
+    font-size: 1.8em;
+}
+
+#content {
+    margin: 10px;
+    background-color: grey;
+    border: 1px solid black; 
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    height: 1000px;
+}
+
+/* Mobile view */
+@media (max-width: 767) {
+    .container {
+        height: 10px;
+  }
+ 
+}

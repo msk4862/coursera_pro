@@ -58,8 +58,11 @@ h1 { /* Our Menu */
     font-size: 1.8em;
 }
 
-#content {
+p {
     margin: 10px;
+}
+#content {
+    margin: 5px;
     background-color: grey;
     border: 1px solid black; 
     padding: 10px;
@@ -67,6 +70,7 @@ h1 { /* Our Menu */
     font-weight: bold;
     height: 1000px;
 }
+
 
 /* Mobile view */
 @media (max-width: 767px) {
